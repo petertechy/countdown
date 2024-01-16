@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+  }
+  @media  screen and (width < 900px) {
+    .hello{
+      font-size: 35px;
+      color: burlywood
+      
+    }
+  }
+  @media  screen and (width < 780px) {
+    .hello{
+      font-size: 30px;
+      color: burlywood
+      
+    }
+  }
+  @media screen and (width <= 470px) {
+    .hello{
+      font-size: 20px;
+      color: yellow;
+    }
+    img{
+      width: 50px;
+    }
+    .con{
+      width: 100%;
+      border: none;
+      /* border-radius: 10px; */
+    }
+}
+
+
+.toast {
+  position: fixed;
+  top: 20px;
+  right: 180px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 1px 2px 5px 3px #a0eaa3;
+  display: none;
+  width: 30%;
+  
+}
